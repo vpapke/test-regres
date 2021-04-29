@@ -1,0 +1,12 @@
+Usuario
+cadastrar Usuario fornecer nome e job resposta 201 + JSONObject contendo nome, job, id e data de criação
+editar usuario fornecer nome, job e id resposta 200 + JSONObject contendo nome, job e data de atualizacao
+buscar todos usuarios fornecer ' ' resposta 200 + JSONObject contendo total de usuarios e um array com dados dos usuarios
+buscar um usuario fornecer id resposta 200 + JSONObject contendo dados do usuario
+deletar um usuario fornecer id resposta 204 
+
+Login
+login com sucesso fornecer email e password valido response 200 + JSONObject contendo token
+login sem sucesso fornecer email valido e nenhuma senha response 400 + JSONObject contendo error
+registrar com sucesso fornecer email e password valido response 200 + JSONObject contendo id e token
+registrar sem sucesso fornecer email valido e nenhuma senha response 400 + JSONObject contendo error
